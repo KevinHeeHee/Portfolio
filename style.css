@@ -2,7 +2,7 @@ body {
   height: 100vh;
   margin: 0;
   overflow: hidden;
-  font-family: Roboto, sans-serif;
+  font-family: CircularStd, sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -36,13 +36,26 @@ ul {
   gap: 16px;
 }
 
-.header {
+.header, .footer {
   display: flex;
   justify-content: space-between;
   padding: 16px;
 }
 
+.footer {
+  background: #eeeeee;
+}
+
 a {
   text-decoration: none;
   color: #666;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 26px;
+}
+
+.home-text {
+  text-align: center;
 }
