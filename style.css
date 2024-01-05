@@ -26,6 +26,7 @@ ul {
 .left-links, .right-links {
   display: flex;
   gap: 16px;
+  align-items: center;
 }
 
 .content {
@@ -58,4 +59,9 @@ h1 {
 
 .home-text {
   text-align: center;
+}
+
+.info {
+  margin: 0px 48px;
+  font-size: 14pt;
 }
